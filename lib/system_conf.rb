@@ -24,11 +24,11 @@ class LeoCenter
 
   namespace "/system_conf" do
     SystemConf::Properties = {
-      version: "Version",
-      n: "Number of replicas",
-      r: "Number of successful READ",
-      w: "Number of successful WRITE",
-      d: "Number of successful DELETE"
+      version: "LeoFS version",
+      n: "The number of replicas",
+      r: "The number of successful READs",
+      w: "The number of successful WRITEs",
+      d: "The number of successful DELETEs"
     }
 
     get "/list.json" do
